@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.raleway-sans-serif {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;  
+    font-style: normal;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding:0;
+}
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.section{
+    width: 100%;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.section-title{
+    margin: 30px 0px;
+    color: rgb(0, 132, 255);
+}
+
+/* navbar  */
+.navbar{
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(0, 132, 255);   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: max-content;
+    z-index: 1;
+}
+.tabs{
+    display: flex;
+}
+.tab-item a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-weight: lighter;
+}
+
+.tab-item{
+    padding: 13px;
+}
+.tab-item:hover{
+    background-color: rgba(0, 0, 0, 0.173);
+}
+
+.hamburger-icon{
+    display: none;
+    text-align: right;
+    width: 100%;
+    padding: 10px;
+}
+
+/* home section */
+.home-container{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+div.profile-info > h1{
+    font-size: 40px;
+    margin: 5rem 0;
+}
+div.profile-info > h1 > span{
+    color: rgb(0, 132, 255);
+}
+.profile-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image{
+    height: 300px;
+    width: 250px;
+    object-fit :cover;
+    border-radius: 5%;
+    margin: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* skill section */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 30px;
+}
+
+
+/* project section */
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 30px;
+}
+.project-card{
+    width: 350px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.project-card:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* contact section */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px 30px;
+}
+
+.contact-detail-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-form-container{
+}
+.contact-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-detail-icon{
+}
+.contact-detail-body{
+    width: 300px;
+    margin: 20px 20px;
+}
+.contact-detail-title, .contact-detail-description{
+    margin: 0px;
+}
+
+/* social links section */
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+@media only screen and (max-width:1400px){
+    .skill-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    
+    .project-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    .skill-container{
+        grid-template-columns: 1fr;
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .home-container{  
+        grid-template-columns: 1fr;
+    } 
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .navbar{
+        justify-content: center;
+    }
+    .hamburger-icon{
+        display:inline;
+    }
+    .hamburger-icon > img{
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(3deg) brightness(107%) contrast(101%);
+    }
+    .tabs{
+        width: 100%;
+        flex-direction: column;
+        align-items: left;
+    }
+    .hide-nav-tabs{
+        display: none;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .contact-detail{
+        width: 80%;
+    }
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+}
