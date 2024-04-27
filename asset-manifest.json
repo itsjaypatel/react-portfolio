@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9aa12dc5.css",
+    "main.css": "/react-portfolio/static/css/main.5b4c1791.css",
     "main.js": "/react-portfolio/static/js/main.30d5579d.js",
     "static/js/453.acca0757.chunk.js": "/react-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/meme-generator.png": "/react-portfolio/static/media/meme-generator.89c00864eea0a9497917.png",
@@ -17,12 +17,12 @@
     "static/media/facebook.svg": "/react-portfolio/static/media/facebook.a53f1d7e86cbec008387b7185b7df61d.svg",
     "static/media/mail.svg": "/react-portfolio/static/media/mail.a993830408a8604bfac2f7b651d8af0e.svg",
     "static/media/hamburger.svg": "/react-portfolio/static/media/hamburger.0d3c31af19b9c297e9457042ec495ba1.svg",
-    "main.9aa12dc5.css.map": "/react-portfolio/static/css/main.9aa12dc5.css.map",
+    "main.5b4c1791.css.map": "/react-portfolio/static/css/main.5b4c1791.css.map",
     "main.30d5579d.js.map": "/react-portfolio/static/js/main.30d5579d.js.map",
     "453.acca0757.chunk.js.map": "/react-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa12dc5.css",
+    "static/css/main.5b4c1791.css",
     "static/js/main.30d5579d.js"
   ]
 }
