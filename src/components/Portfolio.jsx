@@ -5,6 +5,7 @@ import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import { Contact } from "./Contact";
 import { Social } from "./Social";
+import { Experience } from "./Experience";
 
 export const Portfolio = () => {
     return (
@@ -12,6 +13,7 @@ export const Portfolio = () => {
             <NavBar/>
             <Home/>
             <Skills/>
+            <Experience/>
             <Projects/>
             <Contact/>
             <Social/> 

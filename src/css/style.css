@@ -9,7 +9,6 @@ body{
     font-optical-sizing: auto;
     margin: 0;
     padding:0;
-    text-align: justify;
 }
 .portfolio-container{
     display: flex;
@@ -75,6 +74,7 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 60px;
+    text-align: justify;
 }
 div.profile-info > h1{
     font-size: 40px;
@@ -111,6 +111,46 @@ div.profile-info > h1 > span{
     gap: 30px 30px;
 }
 
+/* experience section */
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.experience-container{
+    width: 80%;
+}
+
+.experience-card{
+    display: flex;
+    border-radius: 10px;
+    background-color: #EEF5FF;
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.experience-card>div.card-child-1{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.experience-card>div.card-child-1>img{
+    margin: 5px;
+    height: 70px;
+    width: 80px;
+    mix-blend-mode:multiply
+}
+
+.experience-card:hover{
+    background-color: #86b7f653;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.experience-card>div.card-child-2>div.role-description{
+    text-align: justify;
+}
 
 /* project section */
 .projects{
@@ -123,13 +163,17 @@ div.profile-info > h1 > span{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px 30px;
+    width: 80%;
 }
 .project-card{
-    width: 350px;
-    border: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #EEF5FF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .project-card:hover{
+    background-color: #86b7f653;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
@@ -216,6 +260,10 @@ div.profile-info > h1 > span{
 }
 
 @media only screen and (max-width:750px){
+    .section{
+        padding: 10px;
+        padding-top: 50px;
+    }
     .navbar{
         justify-content: center;
     }
@@ -230,6 +278,21 @@ div.profile-info > h1 > span{
         flex-direction: column;
         align-items: left;
     }
+    .experience-container{
+        width: 100%;
+    }
+    .experience-card{
+        flex-direction: column;
+    }
+    .experience-card>div.card-child-1{
+       flex-direction: row;
+       justify-content: center;
+       width: 100%;
+   }
+    .experience-card>div.card-child-1>div{
+        display: none;
+    }
+    
     .hide-nav-tabs{
         display: none;
     }
@@ -240,6 +303,7 @@ div.profile-info > h1 > span{
         width: 80%;
     }
     .project-container{
+        width: 90%;
         grid-template-columns: 1fr;
     }
 }
