@@ -11,7 +11,7 @@ export const NavBar = () => {
         <Hamburger onClick={toggleTags}/>
         <div className="tabs" ref={ref}>
             <div className="tab-item"><a href="#home">HOME</a></div>
-            <div className="tab-item"><a href="#skills">SKILLS</a></div>
+            <div className="tab-item"><a href="#experience">WORK</a></div>
             <div className="tab-item"><a href="#projects">PROJECTS</a></div>
             <div className="tab-item"><a href="#contact">CONTACT</a></div>
             <div className="tab-item"><a href="#social-links">SOCIAL LINKS</a></div>
