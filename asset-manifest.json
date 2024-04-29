@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5b4c1791.css",
-    "main.js": "/react-portfolio/static/js/main.30d5579d.js",
+    "main.css": "/react-portfolio/static/css/main.587e3d9d.css",
+    "main.js": "/react-portfolio/static/js/main.56d2b581.js",
     "static/js/453.acca0757.chunk.js": "/react-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/meme-generator.png": "/react-portfolio/static/media/meme-generator.89c00864eea0a9497917.png",
     "static/media/profile-picture.jpeg": "/react-portfolio/static/media/profile-picture.2fa6a7ff07da07dc815a.jpeg",
     "static/media/porfolio.png": "/react-portfolio/static/media/porfolio.e141cb04bf547ea9add5.png",
     "static/media/tic-tac-toe.png": "/react-portfolio/static/media/tic-tac-toe.6645461e30e194e253a2.png",
     "static/media/huffman-coding.png": "/react-portfolio/static/media/huffman-coding.47f0d912d09fa079fb62.png",
+    "static/media/cognizant.png": "/react-portfolio/static/media/cognizant.f126adbdd0d9586e38d8.png",
     "static/media/github.svg": "/react-portfolio/static/media/github.1578b7080aa2eb4827d7bdd1a676f26c.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/instagram.svg": "/react-portfolio/static/media/instagram.d39d1e57ab12c9f090a8d5aff1a5f9b0.svg",
@@ -17,12 +18,12 @@
     "static/media/facebook.svg": "/react-portfolio/static/media/facebook.a53f1d7e86cbec008387b7185b7df61d.svg",
     "static/media/mail.svg": "/react-portfolio/static/media/mail.a993830408a8604bfac2f7b651d8af0e.svg",
     "static/media/hamburger.svg": "/react-portfolio/static/media/hamburger.0d3c31af19b9c297e9457042ec495ba1.svg",
-    "main.5b4c1791.css.map": "/react-portfolio/static/css/main.5b4c1791.css.map",
-    "main.30d5579d.js.map": "/react-portfolio/static/js/main.30d5579d.js.map",
+    "main.587e3d9d.css.map": "/react-portfolio/static/css/main.587e3d9d.css.map",
+    "main.56d2b581.js.map": "/react-portfolio/static/js/main.56d2b581.js.map",
     "453.acca0757.chunk.js.map": "/react-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b4c1791.css",
-    "static/js/main.30d5579d.js"
+    "static/css/main.587e3d9d.css",
+    "static/js/main.56d2b581.js"
   ]
 }
