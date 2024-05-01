@@ -13,8 +13,8 @@ export const Experience = () => {
             "location": "Mumbai, India",
             "remote": true,
             "icon": icon1,
-            "description": ["Worked on backend modules for a FILE EVENTS DASHBOARD, helps clients to track Ledger/Buyer Files in a more easy manner. Designed NIFI flows for various scenarios to route files to designated paths based on processing outcomes. Integration of AmazonS3 that stores the logs for files", "Built SLA Scheduler that triggers and generates logs in the console when a particular file arrives in a given time slot", "Wrote unit tests cases for different modules that improves the code quality.", "Wrote DB scripts, provides customized feature experience in Buyer App"],
-            "technologies": ["Java", "Vert.x", "Nifi", "API", "Async", "Javascript", "MongoDB"]
+            "description": ["Worked on backend modules for a FILE EVENTS DASHBOARD, helps clients to track Ledger/Buyer Files in a more easy manner. Designed NIFI flows for various scenarios to route files to designated paths based on processing outcomes. Integration of AmazonS3 that stores the logs for files", "Built SLA Scheduler that triggers and generates logs in the console when a particular file arrives in a given time slot", "Wrote unit tests cases for different modules that improves the code quality.", "Wrote DB scripts, provides customized feature experience in Buyer App","Implmented an automation to download payment advices from vender portal using UI path Studio reduced manual affort by 80%."],
+            "technologies": ["Java", "Vert.x", "Nifi", "API", "Async", "Javascript", "MongoDB","Unit Testing","UI Path Studio Automation"]
         },
         {
             "company": "Cognizant",
@@ -57,7 +57,7 @@ const ExperienceCard = ({ work }) => {
                     </div>
                 </div>
                 <hr className="my-2" style={{ width: "100%", borderColor: "gray" }} />
-                <div className="role-description m-2 p-2" style={{ textAlign: "left" }}>
+                <div className="role-description m-2 p-2" style={{ textAlign: "justify" }}>
                     {
                         work.description && work.description.map(text => <li>{text}</li>)
                     }
