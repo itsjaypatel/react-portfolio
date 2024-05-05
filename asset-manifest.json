@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.30e93fbd.css",
-    "main.js": "/static/js/main.3b904e31.js",
+    "main.js": "/static/js/main.01529475.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/meme-generator.png": "/static/media/meme-generator.89c00864eea0a9497917.png",
-    "static/media/profile-picture.jpeg": "/static/media/profile-picture.2fa6a7ff07da07dc815a.jpeg",
+    "static/media/profile-picture.png": "/static/media/profile-picture.ed82c3f07f858ff2eea4.png",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.6645461e30e194e253a2.png",
     "static/media/portfolio.png": "/static/media/portfolio.d753b860a97884227aa7.png",
     "static/media/huffman-coding.png": "/static/media/huffman-coding.47f0d912d09fa079fb62.png",
@@ -21,11 +21,11 @@
     "static/media/expand-less.svg": "/static/media/expand-less.db993b821b0aa4bca99715960538f054.svg",
     "static/media/expand-more.svg": "/static/media/expand-more.730839144c126385607bf09f84d35c4f.svg",
     "main.30e93fbd.css.map": "/static/css/main.30e93fbd.css.map",
-    "main.3b904e31.js.map": "/static/js/main.3b904e31.js.map",
+    "main.01529475.js.map": "/static/js/main.01529475.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30e93fbd.css",
-    "static/js/main.3b904e31.js"
+    "static/js/main.01529475.js"
   ]
 }
