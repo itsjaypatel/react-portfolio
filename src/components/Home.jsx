@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import profileImage from "../images/home/profile-picture.jpeg";
 import Typed from "typed.js";
 import { Social } from "./Social";
 export const Home = () => {
